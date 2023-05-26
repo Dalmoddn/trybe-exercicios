@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Adicionar itens
+Remover itens
+Renomear itens
+Identificar itens
+Alterar itens
