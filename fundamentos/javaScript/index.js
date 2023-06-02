@@ -21,6 +21,9 @@ if (media > 20) {
 else{
     mensagem = 'O valor da média aritmética é menor que 20.'
 }
+if (impares === 0) {
+    impares = 'Nenhum valor ímpar encontrado.'
+}
 console.log(contagem)
 console.log(media)
 console.log(mensagem)
