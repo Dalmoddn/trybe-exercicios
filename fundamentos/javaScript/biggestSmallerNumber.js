@@ -3,7 +3,6 @@ const biggerSmallerNumber = (arrayNumeros) => {
     let smaller = arrayNumeros[0]
 
     for (let index = 0; index < arrayNumeros.length; index += 1) {
-    const element = array[index];
         if (arrayNumeros[index] > bigger) {
             bigger = arrayNumeros[index]
         } else if (arrayNumeros[index] < smaller)
