@@ -1,7 +1,11 @@
-const n =  5;
-const symbol = '*';
-let imputLine = '';
-
-for (let columnIndex = 0; columnIndex < n; index++) {
-    InputLine  += symbol;
+const mcDonalds = {
+    bigMac: 45.90,
+    bigTasty: 39.99,
+    mcFritasMedia: 9.90,
+    city: 'Curitiba',
+    unit: ['Shopping de Curitiba', 'Shopping Estação'],
+    isDelicious: true,
 };
+
+// console.log(mcDonalds.bigMac);
+console.log(mcDonalds['bigMac'])
