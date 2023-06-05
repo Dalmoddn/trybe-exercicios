@@ -8,4 +8,8 @@ const mcDonalds = {
 };
 
 // console.log(mcDonalds.bigMac);
-console.log(mcDonalds['bigMac'])
+// console.log(mcDonalds['bigMac'])
+// console.log(mcDonalds)
+// console.log(Object.keys(mcDonalds))
+// console.log(Object.values(mcDonalds))
+console.log(Object.entries(mcDonalds))
