@@ -93,3 +93,25 @@ const menu = {
         }
     }
 }
+const carteira = (valor) => {
+    const arrayRetorno = [];
+    for (let index = 0; index < menu.sandwiches.length; index += 1) {
+        const elemento = menu.sandwiches[index];
+        if (elemento.price <= valor) {
+            arrayRetorno.push(elemento.name);
+        }
+    }
+    return arrayRetorno
+};
+carteira(40)
+
+function pesquisaPorIngrediente(nomeIngrediente) {
+    const arrayLanches = [];
+    for (let index = 0; index < menu.sandwiches.length; index += 1)
+    const elemento = menu.sandwiches[index].ingredients;
+    const elemento = menu.sandwiches[index];
+    if (elemento.includes(nomeIngrediente)) {
+        arrayLanches.push();
+    }
+}
+return arrayRetorno
