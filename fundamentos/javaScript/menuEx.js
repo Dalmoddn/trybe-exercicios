@@ -92,7 +92,7 @@ const menu = {
         return elemento
         }
     }
-}
+
 const carteira = (valor) => {
     const arrayRetorno = [];
     for (let index = 0; index < menu.sandwiches.length; index += 1) {
@@ -101,17 +101,17 @@ const carteira = (valor) => {
             arrayRetorno.push(elemento.name);
         }
     }
-    return arrayRetorno
+    console.log(arrayRetorno)
 };
-carteira(40)
+carteira(30)
 
 function pesquisaPorIngrediente(nomeIngrediente) {
     const arrayLanches = [];
-    for (let index = 0; index < menu.sandwiches.length; index += 1)
+    for (let index = 0; index < menu.sandwiches.length; index += 1) {
     const elemento = menu.sandwiches[index].ingredients;
-    const elemento = menu.sandwiches[index];
-    if (elemento.includes(nomeIngrediente)) {
+        if (elemento.includes(nomeIngrediente)) {
         arrayLanches.push();
     }
+  } return arrayRetorno
+  
 }
-return arrayRetorno
