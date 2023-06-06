@@ -120,9 +120,16 @@ function pesquisaPorIngrediente(nomeIngrediente) {
 
 const imprimeLanches = () => {
 
+
+
+  
+
   for (let index = 0; index < menu.sandwiches.length; index++) {
     const elemento = menu.sandwiches[index];
     console.log(`Nome: ${elemento.name}, Preço: ${elemento.price}`);
     
   }
 }
+
+const = meuMenu = menu.drinks[0];
+let meu
