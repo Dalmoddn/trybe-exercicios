@@ -87,11 +87,13 @@ const menu = {
  
   const pesquisaPorNome = (nomeLanche) => {
     for ( let index = 0; index < menu.sandwiches.length; index++) {
-        const elemento = menu.sandwiches[index].name;
-        if (nomeLanche === elemento.name)
-        return elemento
+        const elemento = menu.sandwiches[index];
+        if (nomeLanche === elemento.name) {
+            console.log(elemento)
         }
     }
+  }
+pesquisaPorNome('Big Mac')
 
 const carteira = (valor) => {
     const arrayRetorno = [];
@@ -114,4 +116,13 @@ function pesquisaPorIngrediente(nomeIngrediente) {
     }
   } return arrayRetorno
   
+}
+
+const imprimeLanches = () => {
+
+  for (let index = 0; index < menu.sandwiches.length; index++) {
+    const elemento = menu.sandwiches[index];
+    console.log(`Nome: ${elemento.name}, Preço: ${elemento.price}`);
+    
+  }
 }
