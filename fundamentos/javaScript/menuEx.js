@@ -131,5 +131,5 @@ const imprimeLanches = () => {
   }
 }
 
-const = meuMenu = menu.drinks[0];
+const meuMenu = menu.drinks[0];
 let meu
