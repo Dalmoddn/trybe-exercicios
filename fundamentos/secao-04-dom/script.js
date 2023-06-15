@@ -1,0 +1,1 @@
+const meuTitulo = document.getElementsByName('h1')
